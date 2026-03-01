@@ -1,3 +1,4 @@
+import { Navbar } from "../components/navbar";
 import "./globals.css";
 
 export default function RootLayout({
@@ -10,6 +11,7 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
+        <Navbar />
         {children}
       </body>
     </html>
